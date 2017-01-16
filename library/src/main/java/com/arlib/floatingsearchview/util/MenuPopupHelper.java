@@ -51,6 +51,7 @@ import java.util.ArrayList;
 public class MenuPopupHelper implements AdapterView.OnItemClickListener, View.OnKeyListener,
         ViewTreeObserver.OnGlobalLayoutListener, PopupWindow.OnDismissListener,
         MenuPresenter {
+    //
     private static final String TAG = "MenuPopupHelper";
     static final int ITEM_LAYOUT = R.layout.abc_popup_menu_item_layout;
     private final Context mContext;
